@@ -1,4 +1,4 @@
 {% load i18n %}
 {% autoescape off %}
-{% blocktrans %}hehe{% endblocktrans %}
+{% block trans %}hehe{% endblock trans %}
 {% endautoescape %}
