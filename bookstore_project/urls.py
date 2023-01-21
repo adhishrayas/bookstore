@@ -22,5 +22,6 @@ urlpatterns = [
     # user management
     path('accounts/', include('allauth.urls')), #new
     # local apps
-    path('',include('pages.urls')), 
+    path('',include('pages.urls')),
+    path('books/', include('books.urls')), 
 ]
